@@ -1,0 +1,195 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+/* SITE-HEADER*/
+.site-header {
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* SITE-NAV */
+.site-nav {
+  display: flex;
+  list-style: none;
+}
+
+.sitenav-link {
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-decoration: none;
+color: #000;
+}
+
+/* MAIN-LINK */
+.link-reg {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.23px;
+  text-decoration: none;
+  background-color: #ff7500;
+  color: #fff;
+}
+
+
+/* HERO */
+.site-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252420;
+}
+
+.orange-line {
+width: 80px;
+height: 3px;
+background-color: #ff7500;
+}
+
+.content-python {
+  width: 390px;
+}
+
+.python-book-img {
+width: 510px;
+height: 510px;
+}
+
+.heading-python {
+color: white;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+
+.subtitle-python {
+color: white;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* FEATURES */
+.heading-nega {
+font-size: 72px;
+font-weight: 700;
+line-height: 86.4px;
+}
+
+/* FEATURE */
+.feature-flex {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.feature {
+  width: 340px;
+}
+
+.features-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title {
+font-size: 16px;
+font-weight: 700;
+line-height: 28.8px;
+}
+
+.feature-info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  }
+
+  /* SALE */
+.sale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252420;
+}
+
+.sale-content {
+  width: 440px;
+}
+
+.heading-bolalar {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86.4px;
+}
+.paragraph-bolalar {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sale-img {
+width: 440px;
+height: 440px;
+object-fit: cover;
+}
+
+/* SITE-FOOTER */
+/* Site */
+.site-footer {
+background-color: #f8f8f8;
+}
+
+.site-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-socials-flex {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.site-footer-hr {
+  height: 5px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+
+/* SITE-FOOTER-LINKS */
+.footer-link-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link, .footer-text {
+text-decoration: none;
+color: rgba(37, 36, 32, 1);
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+}
+
+.footer-link-size {
+width: 224px;
+}
+
+
