@@ -12,6 +12,18 @@ justify-content: space-between;
 align-items: center;
 }
 
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -31,7 +43,18 @@ letter-spacing: 1px;
 text-transform: uppercase;
 text-decoration: none;
 color: #000;
+transition: color 0.4s ease, 
+opacity 0.4s ease;
 }
+
+.sitenav-link:hover {
+  color: #ff7500;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
 
 /* MAIN-LINK */
 .link-reg {
@@ -41,8 +64,16 @@ color: #000;
   text-decoration: none;
   background-color: #ff7500;
   color: #fff;
+  transition: 0.4s ease;
 }
 
+.link-reg:hover {
+  opacity: 0.8;
+}
+
+.link-reg:active {
+  opacity: 0.6;
+}
 
 /* HERO */
 .site-section {
@@ -165,6 +196,18 @@ background-color: #f8f8f8;
   align-items: center;
 }
 
+.footer-socials-flex a {
+  color: #252420;
+}
+
+.footer-socials-flex a:hover {
+  color: #ff7500;
+}
+
+.footer-socials-flex a:active {
+ opacity: 0.6;
+}
+
 footer ul {
   list-style: none;
 }
@@ -186,6 +229,15 @@ color: rgba(37, 36, 32, 1);
 font-size: 16px;
 font-weight: 400;
 line-height: 18.75px;
+transition: 0.4s ease;
+}
+
+.footer-text:hover {
+ color: #ff7500;
+}
+
+.footer-text:active {
+  opacity: 0.6;
 }
 
 .footer-link-size {
