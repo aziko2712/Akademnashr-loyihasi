@@ -271,6 +271,7 @@ background-color: #f8f8f8;
 }
 
 .footer-socials-flex a {
+  display: block;
   color: #252420;
 }
 
@@ -280,6 +281,10 @@ background-color: #f8f8f8;
 
 .footer-socials-flex a:active {
  opacity: 0.6;
+}
+
+.footer-socials-flex svg {
+  display: block;
 }
 
 .site-footer-divider {
