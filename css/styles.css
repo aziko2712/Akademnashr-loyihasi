@@ -41,6 +41,16 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.sitenav-item {
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+  margin-right: 0;
 }
 
 .sitenav-link {
@@ -101,6 +111,8 @@ opacity 0.4s ease;
   width: 80px;
   height: 3px;
   border: 0;
+  margin: 0;
+  margin-bottom: 40px;
   background-color: #ff7500;
 }
 
@@ -116,17 +128,21 @@ border-radius: 8px;
 }
 
 .heading-python {
-color: white;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
+  margin: 0;
+  margin-bottom: 24px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
 }
 
 .subtitle-python {
-color: white;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+  margin: 0;
+  margin-bottom: 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* FEATURES */
@@ -138,6 +154,7 @@ line-height: 24px;
 
 .heading-nega {
   margin-top: 0px;
+  margin-bottom: 72px;
   font-size: 72px;
   font-weight: 700;
   line-height: 86.4px;
@@ -145,14 +162,19 @@ line-height: 24px;
 
 /* FEATURE */
 .feature-flex {
-  padding: 0;
   display: flex;
-  justify-content: center;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
 .feature {
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child {
+  margin-right: 0;
 }
 
 .features-icon-wrapper {
@@ -188,16 +210,28 @@ line-height: 24px;
 }
 
 .heading-bolalar {
+  margin: 0;
+  margin-bottom: 24px;
   color: white;
   font-size: 72px;
   font-weight: 700;
   line-height: 86.4px;
 }
 .paragraph-bolalar {
+  margin: 0;
+  margin-bottom: 24px;
   color: white;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.paragraph-bolalar:last-child {
+  margin-bottom: 0;
+}
+
+.buyurtma-button {
+  margin-top: 24px;
 }
 
 .sale-img {
@@ -225,6 +259,15 @@ background-color: #f8f8f8;
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+
+.footer-socials-flex li {
+  margin-right: 16px;
+}
+
+.footer-socials-flex li:last-child {
+  margin-right: 0;
 }
 
 .footer-socials-flex a {
@@ -237,6 +280,11 @@ background-color: #f8f8f8;
 
 .footer-socials-flex a:active {
  opacity: 0.6;
+}
+
+.site-footer-divider {
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 footer ul {
@@ -274,6 +322,16 @@ transition: 0.4s ease;
 .footer-link-size {
 width: 224px;
 padding: 0;
+margin: 0;
+margin-right: 64px;
+}
+
+.footer-link-size:last-child {
+  margin-right: 0;;
+}
+
+.footer-link-size li p {
+  margin: 0;
 }
 
 

@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <!-- STYLES -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -23,10 +24,10 @@
           <!-- SITE NAV -->
               <nav>
             <ul class="site-nav">
-              <li><a class="sitenav-link" href="praktikum.html">Bosh sahifa</a></li>
-              <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-              <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-              <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="praktikum.html">Bosh sahifa</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
             </ul>
               </nav>
             <a class="link-reg" href="#">Ro'yhatdan o'tish</a>
@@ -83,11 +84,13 @@
          <div class="sale-content">
            <h2 class="heading-bolalar">Bolalar kitoblari uchun ajoyib aksiya!
            </h2>
-           <p class="paragraph-bolalar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi officiis molestiae, itaque dolorem aspernatur quia ut nemo voluptates quas.
-           </p>
-           <p class="paragraph-bolalar">Lorem ipsum dolor  consectetur adipisicing elit. Earum, repellendus!
-           </p>
-            <p>
+           <div>
+             <p class="paragraph-bolalar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi officiis molestiae, itaque dolorem aspernatur quia ut nemo voluptates quas.
+             </p>
+             <p class="paragraph-bolalar">Lorem ipsum dolor  consectetur adipisicing elit. Earum, repellendus!
+             </p>
+           </div>
+            <p class="buyurtma-button">
               <a class="link-reg" href="#">Buyurtma berish</a>
             </p>
           </div>
@@ -140,7 +143,7 @@
           </div>
         </div>
         <br><br><br>
-        <hr>
+        <hr class="site-footer-divider">
         <div class="footer-link-flex">
           <ul class="footer-link-size">
             <li>
