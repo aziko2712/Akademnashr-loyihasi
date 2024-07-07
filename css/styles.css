@@ -20,6 +20,7 @@ body {
 }
 
 .logo-link {
+  display: block;
   transition: opacity 0.4s ease;
 }
 
@@ -29,6 +30,10 @@ body {
 
 .logo-link:active {
   opacity: 0.6;
+}
+
+.logo-link svg, img {
+  display: block;
 }
 
 .site-header-actions {
